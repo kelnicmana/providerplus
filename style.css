@@ -1,0 +1,13 @@
+.banner {
+    box-sizing: border-box;
+    height: auto;
+    display: block;
+    width: 90%;
+    margin: 1rem auto;
+  }
+
+  @media only screen and (min-width: 650px) {
+    .banner {
+        width: auto;
+    }
+  }
