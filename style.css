@@ -1,13 +1,37 @@
 .banner {
-    box-sizing: border-box;
     height: auto;
     display: block;
     width: 90%;
     margin: 1rem auto;
-  }
+}
 
-  @media only screen and (min-width: 650px) {
+main > img {
+    height: auto;
+    display: block;
+    width: 100%;
+}
+
+.mission {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer > div {
+    border-top: 1px solid rgb(33, 37, 41);
+    text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
     .banner {
         width: auto;
     }
-  }
+
+    .mission{ 
+        flex-direction: row;
+    }
+
+    .mission > img {
+        width: 50%;
+    }
+}
